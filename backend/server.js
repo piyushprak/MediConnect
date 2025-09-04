@@ -38,6 +38,9 @@ app.use(
   })
 );
 
+app.options("*", cors());   // preflight ko handle karega
+
+
 // api endpoints
 app.use("/api/user", userRouter);
 app.use("/api/admin", adminRouter);
