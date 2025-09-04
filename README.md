@@ -1,91 +1,41 @@
-# Prescripto - Hospital Management System
+# 🏥 MediConnect - Hospital Management System
 
-## Description
-**Prescripto** is a comprehensive Hospital Management System built on the MERN stack to enhance hospital operations. This system includes features such as secure user authentication, efficient appointment scheduling, patient record management, and real-time communication between doctors and patients. It provides a scalable and user-friendly platform to streamline healthcare workflows and improve the hospital experience.
+MediConnect is a full-stack hospital management system designed to simplify interactions between **patients, doctors, and administrators**. It provides user-friendly authentication, appointment booking, and admin dashboards.
 
-## Features
-- **User Authentication**: Secure login for patients, doctors, and administrators.
-- **Appointment Scheduling**: Easy booking, rescheduling, and cancellation of appointments.
-- **Patient Records Management**: Store, access, and update patient health records.
-- **Doctor-Patient Communication**: Real-time messaging for consultations and follow-ups.
-- **Admin Dashboard**: Manage users, appointments, and view analytics.
-- **Secure Data Storage**: Ensure patient privacy and data security with MongoDB.
+---
 
-## Tech Stack
-- **Frontend**: React.js
-- **Backend**: Node.js and Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Tokens)
-- **State Management**: Redux (optional)
+## 🚀 Features
 
-## Getting Started
-Follow these instructions to set up the project locally.
+### 👤 User (Patient)
+- Signup/Login with secure authentication
+- Browse doctors by specialization
+- Book and manage appointments
+- Upload medical records
 
-### Prerequisites
-- Node.js installed
-- MongoDB installed or access to a MongoDB cloud instance
-- Git installed
+### 👨‍⚕️ Doctor
+- Manage personal profile and availability
+- View and confirm appointments
+- Access patient medical history
 
-### Installation
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/Prescripto-Hospital_Management_System.git
-   cd Prescripto-Hospital_Management_System
+### 🛠️ Admin
+- Manage users and doctors
+- Approve/reject doctor registrations
+- Monitor system activity
 
-## Install dependencies
+---
 
-1. **Install admin dependencies**
-   ```bash
-   cd admin
-   npm install
-   ```
+## 🏗️ Tech Stack
 
-2. **Install frontend dependencies**
-   ```bash
-   cd frontend
-   npm install
-   ```
+**Frontend:**
+- React (Vite)
+- Axios
+- Tailwind CSS / CSS modules
 
-3. **Set up environment variables**
-   In the server directory, create a .env file with the following:
+**Backend:**
+- Node.js + Express
+- MongoDB (Mongoose)
+- Cloudinary (for file storage)
 
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   Run the application
-
-4. **Start server:**
-   ```bash
-   cd backend
-   npm run server
-   ```
-
-5. **Start Admin Panel:**
-   ```bash
-   cd admin
-   npm run dev
-   ```
-
-6. **Start Frontend Panel:**
-   ```bash
-   cd frontend
-   npm run dev
-   ```
-
-# Topics
-Hospital Management, MERN Stack, MongoDB, Express.js, React, Node.js, Healthcare App, Patient Records, Appointments.
-
-# Contributors
-Niraj Kumar [Github](https://github.com/meniraj07)
-
-# Deployment Links
-[Prescripto Backend](https://prescriptobackend-4ylq.onrender.com)
-
-[Prescripto Patient Panel](https://prescripto-hospital-management-system.vercel.app/)
-
-[Prescripto Admin/Doctor Panel](https://prescripto-hospital-management-system-c29o.vercel.app/)
-
-# Contact
-For any questions or feedback, please contact [Niraj Kumar](https://www.linkedin.com/in/nirajkumar-nk/)
-
-# License
-This project is licensed under the MIT License.
+**Deployment:**
+- Backend: Render
+- Frontend: Vercel
